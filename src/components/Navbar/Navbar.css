@@ -1,0 +1,115 @@
+.navbar-container {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(1, 1, 1);
+} 
+.navbar-icon {
+  /* border: 1px solid red; */
+  width: 30%;
+  height: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+.navbar-logo{
+  border: 3px solid white; 
+  object-fit: cover;
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  top: 14px;
+  left: 37px;
+}
+.navbar-content {
+  /* border: 1px solid green; */
+  /* border: 1px solid white; */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.navbar-author-form {
+  /* border: 1px solid white; */
+  padding: 0px 8px ;
+  text-decoration: none;
+  color: #ffc107;
+  position: relative;
+}
+.navbar-book-form {
+  /* border: 1px solid white; */
+  padding: 0px 8px ;
+  text-decoration: none;
+  color: #ffc107;
+  position: relative;
+}
+.navbar-displayAuthor {
+  /* border: 1px solid white; */
+  text-decoration: none;
+  padding: 0px 8px ;
+  color: #ffc107;
+  position: relative;
+  
+}
+.navbar-displayBook {
+  /* border: 1px solid white; */
+  text-decoration: none;
+  color: #ffc107;
+  padding: 0px 8px ;
+  position: relative;
+}
+.navbar_link:hover::after{
+    opacity: 1;
+  background-color: #ffc107;
+}
+.navbar_link::after{
+  content: "";
+  position: absolute;
+height:5px ;
+width: 100%;
+background: #ffc107;
+border-radius: 3px;
+opacity: 0;
+left: 0px;
+bottom: -6px;
+transition: all .4s;
+}
+
+.navbar-menu {
+  display: none;
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+@media all and (min-width: 992px) and (max-width: 1500px) {
+  /* Your styles for screens between 601px and 800px go here */
+}
+
+@media all and (min-width: 576px) and (max-width: 992px) {
+  /* Your styles for screens between 601px and 800px go here */
+}
+
+
+@media all and (min-width:300px) and (max-width: 576px) {
+
+.navbar_link{
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+  /* Your styles for screens between 601px and 800px go here */
+}

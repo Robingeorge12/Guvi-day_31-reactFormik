@@ -1,0 +1,162 @@
+.spinner-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate3d(-50%, -50%, 0) */
+}
+
+.book-container {
+  /* border: 1px solid black; */
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* margin: auto; */
+  background-image: url("https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg");
+  /* height: 600px;  */
+}
+.bookdiv1 {
+  /* "if require any div on top this map div ,here we can add details" */
+}
+.bookdiv2 {
+  /* border: 1px solid blue; */
+  width: 100%;
+
+  /* margin: auto; */
+}
+.bookCardDiv {
+  /* border: 1px solid rgb(0, 0, 0); */
+  margin: auto;
+  width: 32%!important;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* margin: auto ; */
+  /* margin-right: 1px; */
+}
+.bookCard {
+  /* border: 1px solid blue; */
+  width: 100%;
+}
+.bookBtn{
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+
+
+.title{
+ 
+    border-bottom: 1px solid grey;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    /* justify-content: center; */
+position: relative;
+}
+.author{
+    display: flex;
+
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.date{
+    display: flex;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+.isbn{
+    display: flex;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+.span1{
+/* border-right: 1px solid yellow; */
+width: 39%;
+padding: 0px 5px 0px 5px;
+font-size: 14px;
+font-weight: 500;
+}
+.span2{
+
+    /* border-right: 1px solid yellow; */
+    padding: 0px 5px 0px 5px;
+    width: 39%;
+    font-size: 14px;
+font-weight: 500;
+}
+.span3{
+
+    /* border-right: 1px solid yellow; */
+    padding: 0px 5px 0px 5px;
+    width: 39%;
+    font-size: 14px;
+font-weight: 500;
+}
+.span4{
+    /* border-right: 1px solid yellow; */
+    padding: 0px 5px 0px 5px;
+    width: 39%;
+    font-size: 14px;
+font-weight: 500;
+
+}
+.ed{
+    position: absolute;
+    right: 0px;
+    border: none;
+    background-color: rgb(86, 6, 225);
+    color: rgb(239, 224, 5);
+
+}
+.ed:hover{
+    color: rgb(13, 227, 95);
+    background-color: black;
+    cursor: pointer;
+}
+.del{
+  
+    border: none;
+    background-color: rgb(240, 5, 95);
+    color: antiquewhite;
+  margin: 8px 0px;
+
+}
+.del:hover{
+    color: rgb(245, 6, 6);
+    background-color: black;
+    cursor: pointer;
+}
+
+.pd{
+    padding: 10px 0px 0px 5px;
+    width: 52%;
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1500px) {
+  /* Your styles for screens between 601px and 800px go here */
+}
+
+@media all and (min-width: 576px) and (max-width: 992px) {
+ 
+  .bookCardDiv {
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    width: 48%!important;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+
+}
+
+
+@media all and (min-width:300px) and (max-width: 576px) {
+  .bookCardDiv {
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    width: 100%!important;
+  }
+}
+

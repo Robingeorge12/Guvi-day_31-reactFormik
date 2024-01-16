@@ -1,0 +1,20 @@
+/* .ONE{
+    border: 1px solid red;
+    position: relative;
+}
+.navbar_link:hover::after{
+    opacity: 1;
+  /* background-color: aqua; */
+/* } */
+/* .navbar_link::after{
+  content: "";
+  position: absolute;
+height:5px ;
+width: 100%;
+background: #dc3545;
+border-radius: 3px;
+opacity: 0;
+left: 0px;
+bottom: -14px;
+transition: all .4s; */
+/* } */
